@@ -1,0 +1,66 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "contact": {}
+    },
+    "paths": {
+        "/arithops": {
+            "post": {
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "endpoint to execute arithmetic operations",
+                "parameters": [
+                    {
+                        "description": "Aithmetic Operation",
+                        "name": "data",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/main.payloadSchema"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/main.responseSchema"
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "$ref": "#/definitions/main.responseSchema"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "main.payloadSchema": {
+            "type": "object",
+            "properties": {
+                "first_number": {
+                    "type": "number"
+                },
+                "operation": {
+                    "description": "Operation must be one of 'ADD', 'SUBTRACT', 'MULTIPLY', and 'DIVIDE'\"",
+                    "type": "string"
+                },
+                "second_number": {
+                    "type": "number"
+                }
+            }
+        },
+        "main.responseSchema": {
+            "type": "object",
+            "properties": {
+                "result": {
+                    "type": "number"
+                }
+            }
+        }
+    }
+}

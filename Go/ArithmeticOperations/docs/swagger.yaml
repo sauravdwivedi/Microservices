@@ -1,0 +1,41 @@
+definitions:
+  main.payloadSchema:
+    properties:
+      first_number:
+        type: number
+      operation:
+        description: Operation must be one of 'ADD', 'SUBTRACT', 'MULTIPLY', and 'DIVIDE'"
+        type: string
+      second_number:
+        type: number
+    type: object
+  main.responseSchema:
+    properties:
+      result:
+        type: number
+    type: object
+info:
+  contact: {}
+paths:
+  /arithops:
+    post:
+      parameters:
+      - description: Aithmetic Operation
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/main.payloadSchema'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/main.responseSchema'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/main.responseSchema'
+      summary: endpoint to execute arithmetic operations
+swagger: "2.0"
