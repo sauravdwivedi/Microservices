@@ -94,7 +94,7 @@ class SchedulePayment(MethodView):
         response_auth_req = requests.post(url, params=payload_auth_req)
 
         if response_auth_req.content.decode("utf-8") != "True":
-            logging.info("Google authentication failed!")
+            logging.warning("Google authentication failed!")
             raise Unauthorized("transaction declined!")
         else:
             logging.info("Google authentication successful. Transaction processed!")

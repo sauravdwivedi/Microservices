@@ -33,8 +33,11 @@ Endpoint /api/v1/user/register allows to create users using POST method. Endpoin
 ### Run code
   
 ```bash
+$ gh repo clone sauravdwivedi/RESTful-API
+$ cd RESTful-API && cd Python && cd Flask
 $ python3 -m venv google_auth
 $ source google_auth/bin/activate
+$ source secrets
 $ pip3 install -r requirements.txt
 $ flask db init 
 $ flask db migrate -m "Initial migration"
@@ -52,7 +55,7 @@ Open the app and scan QR code:
 
 ![QR code](QRcode.png?raw=true "Title")
 
-User PIN displayed in Google Authenticator app to test endpoints.
+Use PIN displayed in Google Authenticator app to test endpoints.
 
 ### Test endpoints
 

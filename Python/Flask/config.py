@@ -1,3 +1,6 @@
+import os
+
+
 class Config:
     API_TITLE = "Transactions with 2FA API"
     API_VERSION = "v1"
@@ -13,4 +16,4 @@ class Config:
     OPENAPI_RAPIDOC_PATH = "/rapidoc"
     OPENAPI_RAPIDOC_URL = "https://unpkg.com/rapidoc/dist/rapidoc-min.js"
     SQLALCHEMY_DATABASE_URI = "sqlite:///app.db"
-    SECRET = "mJhslfdJSD9248445Mmndsasdm"
+    SECRET = os.environ.get("SECRET")

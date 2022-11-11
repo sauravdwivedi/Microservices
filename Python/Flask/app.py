@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from flask import Flask
 from flask_migrate import Migrate
 from sqlalchemy_utils import database_exists, create_database
@@ -10,8 +12,8 @@ from db import db
 app = Flask(__name__)
 app.config.from_object(Config)
 
-if not database_exists(Config.SQLALCHEMY_DATABASE_URI):
-    create_database(Config.SQLALCHEMY_DATABASE_URI)
+# if not database_exists(Config.SQLALCHEMY_DATABASE_URI):
+#     create_database(Config.SQLALCHEMY_DATABASE_URI)
 
 db.init_app(app)
 migrate = Migrate(app, db)
@@ -23,4 +25,4 @@ api.register_blueprint(blp_payment)
 api.register_blueprint(blp_transactions)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=5000, host="localhost")
