@@ -35,7 +35,14 @@ $ cd RESTful-API && cd Python && cd FastAPI && cd ArithOps
 $ python3 -m venv arithops
 $ source arithops/bin/activate
 $ pip3 install -r requirements.txt
-$ uvicorn main:app --reload
+$ uvicorn app.main:app --reload
+```
+
+#### Run on Docker
+
+```bash
+$ docker build -t arithops .
+$ docker run -d --name microservice -p 8000:8000 arithops
 ```
 
 ### Test endpoint

@@ -1,11 +1,10 @@
-#!/usr/bin/python3
-
-from fastapi import FastAPI, Body
+from fastapi import Body, APIRouter
 from pydantic import BaseModel, root_validator
 from fastapi.responses import JSONResponse, HTMLResponse
-from model import ArithmeticOperation
+from app import ArithmeticOperation
 
-app = FastAPI()
+
+router = APIRouter()
 
 
 class RequestSchema(BaseModel):
@@ -29,7 +28,7 @@ class ResponseSchema(BaseModel):
     result: float
 
 
-@app.post("/api/v1/arithops", response_model=ResponseSchema)
+@router.post("/api/v1/arithops", response_model=ResponseSchema)
 async def do_arithmetic_operation(
     payload: RequestSchema = Body(
         example={"first_number": 100, "second_number": 200, "operation": "ADD"},
@@ -43,7 +42,7 @@ async def do_arithmetic_operation(
     return JSONResponse(content={"result": result})
 
 
-@app.get("/", response_class=HTMLResponse)
+@router.get("/", response_class=HTMLResponse)
 async def read_items():
     return """
     <html>
