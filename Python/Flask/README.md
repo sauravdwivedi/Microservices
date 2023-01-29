@@ -33,8 +33,8 @@ Endpoint /api/v1/user/register allows to create users using POST method. Endpoin
 ### Run code
   
 ```bash
-$ gh repo clone sauravdwivedi/RESTful-API
-$ cd RESTful-API && cd Python && cd Flask
+$ gh repo clone sauravdwivedi/Microservices
+$ cd Microservices && cd Python && cd Flask
 $ python3 -m venv google_auth
 $ source google_auth/bin/activate
 $ source secrets

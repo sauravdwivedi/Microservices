@@ -25,13 +25,13 @@ Application implements basic arithmetic operations such as "ADD", "SUBTRACT", "M
 ### Clone repository  
 
 ```bash
-$ gh repo clone sauravdwivedi/RESTful-API
+$ gh repo clone sauravdwivedi/Microservices
 ```
 
 ### Run code
   
 ```bash
-$ cd RESTful-API && cd JavaScript && cd NodeJS && cd arithops
+$ cd Microservices && cd JavaScript && cd NodeJS && cd arithops
 $ DEBUG=myapp:* npm start
 ```
 

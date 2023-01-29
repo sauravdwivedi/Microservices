@@ -25,13 +25,13 @@ Microservice implements basic arithmetic operations such as "ADD", "SUBTRACT", "
 ### Clone repository  
 
 ```bash
-$ gh repo clone sauravdwivedi/RESTful-API
+$ gh repo clone sauravdwivedi/Microservices
 ```
 
 ### Run code
   
 ```bash
-$ cd RESTful-API && cd Python && cd FastAPI && cd ArithOps
+$ cd Microservices && cd Python && cd FastAPI && cd ArithOps
 $ python3 -m venv arithops
 $ source arithops/bin/activate
 $ pip3 install -r requirements.txt

@@ -25,15 +25,13 @@ Application implements basic arithmetic operations such as "ADD", "SUBTRACT", "M
 ### Clone repository  
 
 ```bash
-$ gh repo clone sauravdwivedi/RESTful-API
+$ gh repo clone sauravdwivedi/Microservices
 ```
 
 ### Run code
   
 ```bash
-$ cd RESTful-API
-$ cd Go
-$ cd ArithmeticOperations
+$ cd Microservices && cd Go && cd ArithmeticOperations
 $ go get .
 $ swag init 
 $ go run .
