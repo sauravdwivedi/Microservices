@@ -1,0 +1,24 @@
+services:
+  # db:
+  #   container_name: db
+  #   image: postgres
+  #   restart: always
+  #   secrets:
+  #     - secrets
+  #   environment:
+  #     - POSTGRES_USER=postgres
+  #     - POSTGRES_PASSWORD=password
+  #   ports:
+  #     - 5432:5432
+
+  backend:
+    container_name: backend
+    build: .
+    ports:
+      - 8000:8000
+    secrets:
+      - secrets
+
+secrets:
+  secrets:
+    file: secrets

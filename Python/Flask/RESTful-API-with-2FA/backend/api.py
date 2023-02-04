@@ -5,9 +5,8 @@ import requests
 from werkzeug.exceptions import Unauthorized, InternalServerError
 import logging
 import json
-from db import db
-from config import Config
-from models import Users, Transactions
+from backend import Config, Users, Transactions
+from backend.db import db
 
 
 logging.basicConfig(
@@ -44,7 +43,7 @@ class UserRegistrationSchema(ma.Schema):
 
 class SchedulePaymentSchema(ma.Schema):
     user = ma.fields.String()
-    ammount = ma.fields.Float()
+    amount = ma.fields.Float()
     transaction_type = ma.fields.String(
         validate=ma.validate.OneOf(["deposit", "withdrawal"])
     )
@@ -77,7 +76,7 @@ class UserRegistration(MethodView):
             db.session.rollback()
             raise InternalServerError("An error occurred!")
 
-        return {"code": 201, "status": "User successfuly created!"}
+        return {"code": 201, "status": "User successfully created!"}
 
 
 @blp_payment.route("/payment")
@@ -100,7 +99,7 @@ class SchedulePayment(MethodView):
             logging.info("Google authentication successful. Transaction processed!")
             try:
                 transaction_dict = {
-                    "ammount": payload["ammount"],
+                    "amount": payload["amount"],
                     "transaction_type": payload["transaction_type"],
                     "status": payload["status"],
                     "user": payload["user"],
@@ -131,7 +130,7 @@ class TransactionsAPI(MethodView):
             for d in data:
                 trans_dict = {
                     "id": 0,
-                    "ammount": 0,
+                    "amount": 0,
                     "transaction_type": "",
                     "status": "",
                     "user": "",

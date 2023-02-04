@@ -1,8 +1,11 @@
 flask
 flask-restful
 flask-smorest
+flask_cors
 requests
 sqlalchemy
 flask-migrate
 flask-sqlalchemy
 sqlalchemy_utils
+python-dotenv
+psycopg2-binary==2.9.3
