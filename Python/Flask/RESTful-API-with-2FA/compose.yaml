@@ -1,23 +1,48 @@
 services:
-  # db:
-  #   container_name: db
-  #   image: postgres
-  #   restart: always
-  #   secrets:
-  #     - secrets
-  #   environment:
-  #     - POSTGRES_USER=postgres
-  #     - POSTGRES_PASSWORD=password
-  #   ports:
-  #     - 5432:5432
+  db:
+    container_name: db
+    image: postgres
+    restart: always
+    secrets:
+      - secrets
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+    ports:
+      - 5432:5432
+    volumes:
+      - db:/var/lib/postgresql/data
+    networks:
+      - backend-db
 
   backend:
     container_name: backend
     build: .
+    entrypoint: /code/entrypoint.sh
     ports:
       - 8000:8000
     secrets:
       - secrets
+    environment:
+      - FLASK_APP=backend/app
+      - FLASK_DEBUG=1
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+      - PG_HOST=host.docker.internal
+      # - PG_HOST=db
+      - SECRET=mJhslfdJSD9248445Mmndsasdm
+    depends_on:
+      - db
+    networks:
+      - backend-db
+
+networks:
+  backend-db:
+    driver: bridge
+
+volumes:
+  db:
+    driver: local
 
 secrets:
   secrets:

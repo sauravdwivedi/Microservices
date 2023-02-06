@@ -30,13 +30,6 @@ Endpoint /api/v1/user/register allows to create users using POST method. Endpoin
 
 ## Execution
 
-### Setup database
-
-```bash
-docker pull postgres
-docker run --name postgres -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=password -d postgres
-```
-
 ### Clone repository 
 
 ```bash
@@ -44,7 +37,22 @@ gh repo clone sauravdwivedi/Microservices
 cd Microservices && cd Python && cd Flask && cd RESTful-API-with-2FA
 ```
 
-### Run on terminal
+### Run on Docker
+
+```bash
+docker compose up -d
+curl localhost:8000
+```
+
+<details><summary><h3>Run on terminal</h3></summary>
+<p>
+
+Setup database
+
+```bash
+docker pull postgres
+docker run --name postgres -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=password -d postgres
+```
   
 ```bash
 python3 -m venv google_auth
@@ -58,14 +66,9 @@ flask db upgrade
 flask run --host=0.0.0.0 --port=8000
 ```
 
-### Run on Docker
+</p>
+</details>
 
-Make sure postgres is already running on docker
-
-```bash
-docker compose up backend -d
-curl localhost:8000
-```
 
 ### Set Google Autheticator app
 
