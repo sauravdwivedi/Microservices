@@ -50,8 +50,8 @@ curl localhost:8000
 Setup database
 
 ```bash
-docker pull postgres
-docker run --name postgres -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=password -d postgres
+docker pull mysql
+docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -e MYSQL_DATABASE=flask_app -d mysql
 ```
   
 ```bash

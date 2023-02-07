@@ -1,11 +1,12 @@
 flask
 flask-restful
 flask-smorest
-flask_cors
+flask-cors
 requests
 sqlalchemy
 flask-migrate
 flask-sqlalchemy
-sqlalchemy_utils
+sqlalchemy-utils
 python-dotenv
-psycopg2-binary==2.9.3
+mysql-connector-python
+mysql

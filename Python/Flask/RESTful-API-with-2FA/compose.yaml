@@ -1,17 +1,17 @@
 services:
   db:
     container_name: db
-    image: postgres
+    image: mysql
     restart: always
     secrets:
       - secrets
     environment:
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=password
-    ports:
-      - 5432:5432
+      - MYSQL_ROOT_PASSWORD=my-secret-pw
+      - MYSQL_DATABASE=flask_app
+    expose:
+      - 3306
     volumes:
-      - db:/var/lib/postgresql/data
+      - db:/var/lib/mysql
     networks:
       - backend-db
 
@@ -26,10 +26,9 @@ services:
     environment:
       - FLASK_APP=backend/app
       - FLASK_DEBUG=1
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=password
-      - PG_HOST=host.docker.internal
-      # - PG_HOST=db
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=my-secret-pw
+      - MYSQL_HOST=db
       - SECRET=mJhslfdJSD9248445Mmndsasdm
     depends_on:
       - db
@@ -42,7 +41,7 @@ networks:
 
 volumes:
   db:
-    driver: local
+
 
 secrets:
   secrets:
