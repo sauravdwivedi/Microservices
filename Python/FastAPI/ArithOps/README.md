@@ -4,6 +4,18 @@
 
 Microservice implements basic arithmetic operations such as "ADD", "SUBTRACT", "MULTIPLY", and "DIVIDE" to be executed on an endpoint using POST method.
 
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant B as Backend
+    C->>B: POST
+    alt malformed payload
+        B->>C: 422
+    else payload OK
+        B->>C: 200
+    end
+```
+
 ### Payload
 ```json
 {
