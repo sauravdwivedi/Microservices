@@ -10,7 +10,7 @@ sequenceDiagram
     participant B as Backend
     C->>B: POST
     alt malformed payload
-        B->>C: 422
+        B-->>C: 422
     else payload OK
         B->>C: 200
     end
