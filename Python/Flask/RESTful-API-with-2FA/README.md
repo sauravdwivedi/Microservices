@@ -2,6 +2,16 @@
 
 ## Project description
 
+```mermaid
+flowchart LR
+    A(Client) --> B(API)
+    B -->|2FA| C(Google Authenticator)
+    C --> |OK| B(API)
+    B --> E[(Database)]
+    E --> B
+    B --> A
+```
+
 Flask application with endpoints:
 
 - /api/v1/user/register
@@ -26,6 +36,30 @@ Endpoint /api/v1/user/register allows to create users using POST method. Endpoin
 {
     "status": "Google 2FA authentication successful. Transaction processed!"
 }
+```
+
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant B as Backend
+    participant G as Google Authenticator
+    C->>B: POST
+    alt register user
+        B->>C: 201
+    else schedule payment
+        C->>B: POST
+        B->>G: POST
+        alt 2FA successful
+            G->>B: 200
+            B->>C: 201
+        else 2FA failed
+            G-->>B: 404
+            B-->>C: 404
+        end
+    else list transactions
+        C->>B: GET
+        B->>C: 200
+    end
 ```
 
 ## Execution
@@ -80,9 +114,9 @@ Open the app and scan QR code:
 
 ![QR code](QRcode.png?raw=true "Title")
 
-Use PIN displayed in Google Authenticator app to test endpoints.
-
 ### Test endpoints
+
+Use PIN displayed in Google Authenticator app to test endpoint /schedule/payment.
 
 ```bash
 curl http://127.0.0.1:8000/api/v1/user/register \
@@ -97,7 +131,7 @@ curl http://127.0.0.1:8000/api/v1/schedule/payment \
     --include \
     --header "Content-Type: application/json" \
     --request "POST" \
-    --data '{"user": "Smith", "amount": 1032423424, "transaction_type": "deposit", "status": "scheduled", "pin": "815587"}'
+    --data '{"user": "Smith", "amount": 1032423424, "transaction_type": "deposit", "status": "scheduled", "pin": "<from-google-auth-app>"}'
 ```
 
 ```bash
