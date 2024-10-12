@@ -1,0 +1,6 @@
+@TransactionManagement_HostAddress = http://localhost:5231
+
+GET {{TransactionManagement_HostAddress}}/accounts/
+Accept: application/json
+
+###

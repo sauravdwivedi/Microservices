@@ -9,47 +9,11 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TransactionManagement
 build_property.RootNamespace = TransactionManagement
-build_property.ProjectDir = /Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/C#/ASP.NET/TransactionManagement/
+build_property.ProjectDir = /Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/.NET/ASP.NET/TransactionManagement/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/C#/ASP.NET/TransactionManagement
+build_property.MSBuildProjectDirectory = /Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/.NET/ASP.NET/TransactionManagement
 build_property._RazorSourceGeneratorDebug = 
-
-[/Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/C\#/ASP.NET/TransactionManagement/Components/App.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/C\#/ASP.NET/TransactionManagement/Components/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudGVyLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/C\#/ASP.NET/TransactionManagement/Components/Pages/Error.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/C\#/ASP.NET/TransactionManagement/Components/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/C\#/ASP.NET/TransactionManagement/Components/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9XZWF0aGVyLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/C\#/ASP.NET/TransactionManagement/Components/Routes.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/C\#/ASP.NET/TransactionManagement/Components/_Imports.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/C\#/ASP.NET/TransactionManagement/Components/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-p2s1psahye
-
-[/Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/C\#/ASP.NET/TransactionManagement/Components/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2TWVudS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-5vrr0h5r0t
