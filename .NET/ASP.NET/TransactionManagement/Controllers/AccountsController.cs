@@ -8,16 +8,21 @@ namespace TransactionManagement.Controllers;
 public class AccountsController : ControllerBase
 {
     [HttpGet("{path}")]
-    public IEnumerable<Account> GetAll(string path)
+    public ActionResult<IEnumerable<Account>> GetAll(string path)
     {
-        path = "all";
-
-        return Enumerable.Range(1, 5).Select(index => new Account
+        if (path == "all")
         {
-            Id = Guid.NewGuid(),
-            Balance = Random.Shared.Next(1000000, 10000000),
-        })
-        .ToArray();
+            return Enumerable.Range(1, 5).Select(index => new Account
+            {
+                Id = Guid.NewGuid(),
+                Balance = Random.Shared.Next(1000000, 10000000),
+            })
+                .ToArray();
+        }
+        else
+        {
+            return NotFound();
+        }
     }
 
     [HttpGet()]
