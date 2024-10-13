@@ -9,4 +9,5 @@ public class Transaction
     public double Amount { get; set; }
     public DateTime CreatedAt { get; set; }
     public Guid AccountId { get; set; }
+    public Account Account { get; set; }
 }
