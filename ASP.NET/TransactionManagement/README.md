@@ -20,7 +20,7 @@ dotnet run
 - https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api
 
 - https://www.telerik.com/blogs/aspnet-core-basics-working-database
-- 
+  
 ### Add package examples
 
 ```bash
