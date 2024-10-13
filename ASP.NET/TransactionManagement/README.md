@@ -1,4 +1,84 @@
+# RESTful API with ASP.NET
+
+## Project description
+
+Web service provides endpoints to create accounts and manage transactions.
+
 <img src=pic.PNG alt="Swagger UI">
+
+## Architecture
+
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant B as Backend
+    C->>B: POST
+    alt malformed payload
+        B-->>C: 422
+    else payload OK
+        B->>C: 201
+    end
+```
+
+## Usage
+
+### Create account
+#### Payload
+```json
+{
+  "accountId": "ff41eeb4-ea40-4c85-b7f5-272ccb511527",
+  "Balance": 500000
+}
+```
+
+#### Response
+```json
+{
+    "status": 201
+}
+```
+
+#### POST using terminal
+
+```bash
+curl -X 'POST' \                                          
+  'http://localhost:5231/api/Accounts' \
+  -H 'accept: */*' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "accountId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "Balance": 500000
+}'
+```
+
+### Manage transaction
+#### Payload
+```json
+{
+  "accountId": "ff41eeb4-ea40-4c85-b7f5-272ccb511527",
+  "amount": 500000
+}
+```
+
+#### Response
+```json
+{
+    "status": 201
+}
+```
+
+#### POST using terminal
+
+```bash
+curl -X 'POST' \                                          
+  'http://localhost:5231/api/Transactions' \
+  -H 'accept: */*' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "accountId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "amount": 500000
+}'
+```
 
 ### Execution
 

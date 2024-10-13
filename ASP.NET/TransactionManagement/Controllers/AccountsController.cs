@@ -11,12 +11,12 @@ public class AccountsController : ControllerBase
     private readonly DataBase _context = new DataBase();
 
     [HttpPost]
-    public async void PostAccount(Account account)
+    public async Task<int> PostAccount(Account account)
     {
         _context.Accounts.Add(account);
         await _context.SaveChangesAsync();
 
-        return;
+        return 201;
     }
 
     [HttpGet]
