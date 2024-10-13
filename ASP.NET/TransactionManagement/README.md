@@ -2,7 +2,7 @@
 
 ```bash
 gh repo clone sauravdwivedi/Microservices
-cd Microservices && cd .NET && cd ASP.NET && cd TransactionManagement
+cd Microservices && cd ASP.NET && cd TransactionManagement
 # Create database schema
 dotnet ef migrations add InitialModel
 # Create database 
