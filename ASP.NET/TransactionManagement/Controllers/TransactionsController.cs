@@ -52,7 +52,7 @@ public class TransactionsController : ControllerBase
     }
 
     [HttpGet("all")]
-    public async Task<ActionResult<IEnumerable<Transaction>>> GetAllTransaction()
+    public async Task<ActionResult<IEnumerable<Transaction>>> GetAllTransactions()
     {
         return await _context.Transactions
             .ToListAsync();

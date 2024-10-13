@@ -1,3 +1,5 @@
+<img src=pic.PNG alt="Swagger UI">
+
 ### Execution
 
 ```bash
@@ -18,13 +20,5 @@ dotnet run
 ### Tutorials 
 
 - https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api
-
 - https://www.telerik.com/blogs/aspnet-core-basics-working-database
   
-### Add package examples
-
-```bash
-dotnet tool install --global dotnet-ef
-dotnet add package Microsoft.EntityFrameworkCore
-dotnet add package Microsoft.EntityFrameworkCore.Sqlite
-```

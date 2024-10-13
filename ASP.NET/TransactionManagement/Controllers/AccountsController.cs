@@ -31,4 +31,11 @@ public class AccountsController : ControllerBase
 
         return account;
     }
+
+    [HttpGet("all")]
+    public async Task<ActionResult<IEnumerable<Account>>> GetAllAccounts()
+    {
+        return await _context.Accounts
+            .ToListAsync();
+    }
 }
