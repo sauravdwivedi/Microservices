@@ -1,3 +1,5 @@
+### Execution
+
 ```bash
 gh repo clone sauravdwivedi/Microservices
 cd Microservices && cd .NET && cd ASP.NET && cd TransactionManagement
@@ -13,16 +15,16 @@ dotnet run
 
 - http://localhost:5231/swagger/index.html
 
-### Add package
+### Tutorials 
+
+- https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api
+
+- https://www.telerik.com/blogs/aspnet-core-basics-working-database
+- 
+### Add package examples
 
 ```bash
 dotnet tool install --global dotnet-ef
 dotnet add package Microsoft.EntityFrameworkCore
 dotnet add package Microsoft.EntityFrameworkCore.Sqlite
 ```
-
-### Tutorials 
-
-- https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api
-
-- https://www.telerik.com/blogs/aspnet-core-basics-working-database
