@@ -14,28 +14,36 @@ public class TransactionsController : ControllerBase
     public async Task<int> PostTransaction(TransactionSchema payload)
     {
         var account = await _context.Accounts.FindAsync(payload.AccountId);
-        account.Balance += payload.Amount;
-        var transaction = new Transaction();
-        transaction.Amount = payload.Amount;
-        transaction.CreatedAt = DateTime.Now;
-        transaction.AccountId = payload.AccountId;
-        _context.Transactions.Add(transaction);
-        await _context.SaveChangesAsync();
+
+        if (account != null)
+        {
+            account.Balance += payload.Amount;
+            var transaction = new Transaction();
+            transaction.Amount = payload.Amount;
+            transaction.CreatedAt = DateTime.Now;
+            transaction.AccountId = payload.AccountId;
+            _context.Transactions.Add(transaction);
+            await _context.SaveChangesAsync();
+        }
+        else
+        {
+            return 400;
+        }
 
         return 201;
     }
 
     [HttpGet("{accountId}")]
-    public async Task<ActionResult<List<Transaction>>> GetTransactionByAccountId(Guid accountId)
+    public async Task<ActionResult<List<Transaction>>> GetTransactionsByAccountId(Guid accountId)
     {
-        var transaction = await _context.Transactions.Where(transaction => transaction.AccountId == accountId).ToListAsync();
+        var transactions = await _context.Transactions.Where(transaction => transaction.AccountId == accountId).ToListAsync();
 
-        if (transaction == null)
+        if (transactions == null)
         {
             return NotFound();
         }
 
-        return transaction;
+        return transactions;
     }
 
     [HttpGet]

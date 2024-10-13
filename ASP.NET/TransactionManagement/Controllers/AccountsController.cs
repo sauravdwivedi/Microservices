@@ -13,8 +13,17 @@ public class AccountsController : ControllerBase
     [HttpPost]
     public async Task<int> PostAccount(Account account)
     {
-        _context.Accounts.Add(account);
-        await _context.SaveChangesAsync();
+        var accounts = await _context.Accounts.FindAsync(account.Id);
+
+        if (accounts == null)
+        {
+            _context.Accounts.Add(account);
+            await _context.SaveChangesAsync();
+        }
+        else
+        {
+            return 400;
+        }
 
         return 201;
     }
