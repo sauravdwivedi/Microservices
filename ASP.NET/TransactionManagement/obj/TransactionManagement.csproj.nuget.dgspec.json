@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/.NET/ASP.NET/TransactionManagement/TransactionManagement.csproj": {}
+    "/Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/ASP.NET/TransactionManagement/TransactionManagement.csproj": {}
   },
   "projects": {
-    "/Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/.NET/ASP.NET/TransactionManagement/TransactionManagement.csproj": {
+    "/Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/ASP.NET/TransactionManagement/TransactionManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/.NET/ASP.NET/TransactionManagement/TransactionManagement.csproj",
+        "projectUniqueName": "/Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/ASP.NET/TransactionManagement/TransactionManagement.csproj",
         "projectName": "TransactionManagement",
-        "projectPath": "/Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/.NET/ASP.NET/TransactionManagement/TransactionManagement.csproj",
+        "projectPath": "/Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/ASP.NET/TransactionManagement/TransactionManagement.csproj",
         "packagesPath": "/Users/sdwivedi/.nuget/packages/",
-        "outputPath": "/Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/.NET/ASP.NET/TransactionManagement/obj/",
+        "outputPath": "/Users/sdwivedi/Documents/Saurav Dwivedi/Data Science/Git/Microservices/ASP.NET/TransactionManagement/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sdwivedi/.nuget/NuGet/NuGet.Config"

@@ -8,4 +8,5 @@ public class DataBase : DbContext
        options.UseSqlite("DataSource=transaction_management.sqlite; Cache=Shared");
 
     public DbSet<Account> Accounts { get; set; }
+    public DbSet<Transaction> Transactions { get; set; }
 }
