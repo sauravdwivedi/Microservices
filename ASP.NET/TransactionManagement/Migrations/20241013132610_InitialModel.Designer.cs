@@ -11,7 +11,7 @@ using TransactionManagement.Models;
 namespace TransactionManagement.Migrations
 {
     [DbContext(typeof(DataBase))]
-    [Migration("20241013122450_InitialModel")]
+    [Migration("20241013132610_InitialModel")]
     partial class InitialModel
     {
         /// <inheritdoc />
@@ -51,20 +51,7 @@ namespace TransactionManagement.Migrations
 
                     b.HasKey("TransactionId");
 
-                    b.HasIndex("AccountId");
-
                     b.ToTable("Transactions");
-                });
-
-            modelBuilder.Entity("TransactionManagement.Models.Transaction", b =>
-                {
-                    b.HasOne("TransactionManagement.Models.Account", "Account")
-                        .WithMany()
-                        .HasForeignKey("AccountId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Account");
                 });
 #pragma warning restore 612, 618
         }

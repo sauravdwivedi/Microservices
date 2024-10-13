@@ -18,11 +18,24 @@ public class TransactionsController : ControllerBase
         var transaction = new Transaction();
         transaction.Amount = payload.Amount;
         transaction.CreatedAt = DateTime.Now;
-        transaction.AccountId = account.Id;
+        transaction.AccountId = payload.AccountId;
         _context.Transactions.Add(transaction);
         await _context.SaveChangesAsync();
 
         return 201;
+    }
+
+    [HttpGet("{accountId}")]
+    public async Task<ActionResult<List<Transaction>>> GetTransactionByAccountId(Guid accountId)
+    {
+        var transaction = await _context.Transactions.Where(transaction => transaction.AccountId == accountId).ToListAsync();
+
+        if (transaction == null)
+        {
+            return NotFound();
+        }
+
+        return transaction;
     }
 
     [HttpGet]
@@ -36,5 +49,12 @@ public class TransactionsController : ControllerBase
         }
 
         return transaction;
+    }
+
+    [HttpGet("all")]
+    public async Task<ActionResult<IEnumerable<Transaction>>> GetAllTransaction()
+    {
+        return await _context.Transactions
+            .ToListAsync();
     }
 }
