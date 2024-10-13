@@ -14,7 +14,7 @@ sequenceDiagram
     participant B as Backend
     C->>B: POST
     alt malformed payload
-        B-->>C: 422
+        B-->>C: 400
     else payload OK
         B->>C: 201
     end
@@ -41,13 +41,13 @@ sequenceDiagram
 #### POST using terminal
 
 ```bash
-curl -X 'POST' \                                          
+curl -X 'POST' \
   'http://localhost:5231/api/Accounts' \
-  -H 'accept: */*' \
+  -H 'accept: text/plain' \
   -H 'Content-Type: application/json' \
   -d '{
-  "accountId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-  "Balance": 500000
+  "id": "ff41eeb4-ea40-4c85-b7f5-272ccb511527",
+  "balance": 0
 }'
 ```
 
@@ -70,12 +70,12 @@ curl -X 'POST' \
 #### POST using terminal
 
 ```bash
-curl -X 'POST' \                                          
+curl -X 'POST' \
   'http://localhost:5231/api/Transactions' \
   -H 'accept: */*' \
   -H 'Content-Type: application/json' \
   -d '{
-  "accountId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "accountId": "ff41eeb4-ea40-4c85-b7f5-272ccb511527",
   "amount": 500000
 }'
 ```
