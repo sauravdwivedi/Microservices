@@ -20,5 +20,5 @@ dotnet run
 ### Tutorials 
 
 - https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api
-- https://www.telerik.com/blogs/aspnet-core-basics-working-database
+- https://learn.microsoft.com/en-us/ef/core/modeling/relationships/one-to-many
   
