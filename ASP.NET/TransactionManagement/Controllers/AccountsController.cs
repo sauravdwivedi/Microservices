@@ -11,7 +11,7 @@ public class AccountsController : ControllerBase
     private readonly DataBase _context = new DataBase();
 
     [HttpPost]
-    public async Task<int> PostAccount(Account account)
+    public async Task<ActionResult> PostAccount(Account account)
     {
         var accounts = await _context.Accounts.FindAsync(account.Id);
 
@@ -22,10 +22,10 @@ public class AccountsController : ControllerBase
         }
         else
         {
-            return 400;
+            return BadRequest();
         }
 
-        return 201;
+        return Ok(201);
     }
 
     [HttpGet]

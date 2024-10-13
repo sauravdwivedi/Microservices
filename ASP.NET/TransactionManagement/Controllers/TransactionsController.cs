@@ -11,7 +11,7 @@ public class TransactionsController : ControllerBase
     private readonly DataBase _context = new DataBase();
 
     [HttpPost]
-    public async Task<int> PostTransaction(TransactionSchema payload)
+    public async Task<ActionResult> PostTransaction(TransactionSchema payload)
     {
         var account = await _context.Accounts.FindAsync(payload.AccountId);
 
@@ -27,10 +27,10 @@ public class TransactionsController : ControllerBase
         }
         else
         {
-            return 400;
+            return BadRequest();
         }
 
-        return 201;
+        return Ok(201);
     }
 
     [HttpGet("{accountId}")]
