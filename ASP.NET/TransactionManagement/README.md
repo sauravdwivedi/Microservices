@@ -1,4 +1,4 @@
-# RESTful API with ASP.NET
+# RESTful API with ASP.NET Core
 
 ## Project description
 
@@ -101,4 +101,5 @@ dotnet run
 
 - https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api
 - https://learn.microsoft.com/en-us/ef/core/modeling/relationships/one-to-many
+- https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling
   
