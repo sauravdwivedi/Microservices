@@ -1,41 +1,33 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using TransactionManagement.Models;
 
 namespace TransactionManagement.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class AccountsController : ControllerBase
 {
-    [HttpGet("{path}")]
-    public ActionResult<IEnumerable<Account>> GetAll(string path)
+    private readonly DataBase _context = new DataBase();
+
+    [HttpPost]
+    public async void PostAccount(Account account)
     {
-        if (path == "all")
-        {
-            return Enumerable.Range(1, 5).Select(index => new Account
-            {
-                Id = Guid.NewGuid(),
-                Balance = Random.Shared.Next(1000000, 10000000),
-            })
-                .ToArray();
-        }
-        else
-        {
-            return NotFound();
-        }
+        _context.Accounts.Add(account);
+        await _context.SaveChangesAsync();
+
+        return;
     }
 
-    [HttpGet()]
-    public ActionResult<Account> GetById(Guid id)
+    [HttpGet]
+    public async Task<ActionResult<Account>> GetAccountById(Guid id)
     {
-        var account = new Account
-        {
-            Id = id,
-            Balance = Random.Shared.Next(1000000, 10000000),
-        };
+        var account = await _context.Accounts.FindAsync(id);
 
         if (account == null)
+        {
             return NotFound();
+        }
 
         return account;
     }
