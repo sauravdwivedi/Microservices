@@ -26,7 +26,7 @@ sequenceDiagram
 #### Payload
 ```json
 {
-  "accountId": "ff41eeb4-ea40-4c85-b7f5-272ccb511527",
+  "Id": "ff41eeb4-ea40-4c85-b7f5-272ccb511527",
   "Balance": 500000
 }
 ```
