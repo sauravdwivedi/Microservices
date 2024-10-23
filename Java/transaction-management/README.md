@@ -5,6 +5,20 @@ Web service provides endpoints to execute CRUD operations.
 
 <img src=pic.PNG alt="Swagger UI">
 
+## Architecture
+
+```mermaid
+sequenceDiagram
+    participant C as Client
+    participant B as Backend
+    C->>B: POST
+    alt malformed payload
+        B-->>C: 400
+    else payload OK
+        B->>C: 201
+    end
+```
+
 ## Usage
 
 ### Create account
