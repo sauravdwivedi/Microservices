@@ -1,0 +1,1022 @@
+[
+    {
+        "id": "26573fdd-b03d-440a-91f9-9e38f9902c09",
+        "breed": "Abyssinian",
+        "origin": "Unspecified, but somewhere in Afro-Asia, likely Ethiopia",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["semi-foreign"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Ticked tabby"
+    },
+    {
+        "id": "be6ee300-edf3-4a9d-82c2-90fd14ea6c78",
+        "breed": "Aegean",
+        "origin": "Greece",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["moderate"],
+        "coat_type_and_length": "semi-long",
+        "coat_pattern": "Multi-color"
+    },
+    {
+        "id": "066a7eec-944f-45d9-aed6-f36657875e2b",
+        "breed": "American Bobtail",
+        "origin": "United States",
+        "type": "mutation",
+        "type_info": "Mutation of shortened tail",
+        "body_types": ["cobby"],
+        "coat_type_and_length": "semi-long",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "24bd729e-13a8-43b6-9162-92e0cf2f54b1",
+        "breed": "American Curl",
+        "origin": "United States",
+        "type": "mutation",
+        "type_info": null,
+        "body_types": ["semi-foreign"],
+        "coat_type_and_length": "semi-long",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "85362535-87fb-4676-b783-cd5d2f8117a6",
+        "breed": "American Ringtail",
+        "origin": "United States",
+        "type": "mutation",
+        "type_info": null,
+        "body_types": ["foreign"],
+        "coat_type_and_length": "semi-long",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "8189595f-5584-4b0d-9da1-525a2010cf6e",
+        "breed": "American Shorthair",
+        "origin": "United States",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["cobby"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "b1ae8e18-546b-4d93-bd29-d2c089fd93eb",
+        "breed": "American Wirehair",
+        "origin": "United States",
+        "type": "mutation",
+        "type_info": null,
+        "body_types": ["normal"],
+        "coat_type_and_length": "rex",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "200cf159-724d-4b57-ba89-1c577980838b",
+        "breed": "Aphrodite Giant",
+        "origin": "Cyprus",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["lean", "muscular"],
+        "coat_type_and_length": "all",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "bd79bcfd-f536-4a92-8877-f1b1048e4830",
+        "breed": "Arabian Mau",
+        "origin": "Arabian Peninsula",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["moderate", "muscular"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "4e540662-9e69-45fe-b334-a07c5243f32e",
+        "breed": "Asian",
+        "origin": "United Kingdom",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Burmese and Chinchilla Persians",
+        "body_types": ["moderate"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "All without white and without siamese pointing"
+    },
+    {
+        "id": "60e0d65c-cc1e-4967-ad4a-4a54820d37a1",
+        "breed": "Asian Semi-longhair",
+        "origin": "United Kingdom",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Burmese and Chinchilla Persians",
+        "body_types": ["moderate"],
+        "coat_type_and_length": "semi-long",
+        "coat_pattern": "All without white and without siamese pointing"
+    },
+    {
+        "id": "31a8f28b-0c74-4bb4-ac44-cf6d0d79c630",
+        "breed": "Australian Mist",
+        "origin": "Australia",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Abyssinian, Burmese, and Australian short-haired cats",
+        "body_types": ["moderate"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Spotted or marbled"
+    },
+    {
+        "id": "3db1cf89-5b8e-4445-9b0e-4f4ad67039f2",
+        "breed": "Balinese",
+        "origin": "Developed in United States, foundation stock from Thailand",
+        "type": "mutation",
+        "type_info": "Mutation of the Siamese",
+        "body_types": ["semi-foreign"],
+        "coat_type_and_length": "long",
+        "coat_pattern": "Colorpoint"
+    },
+    {
+        "id": "de4317d4-28dd-4680-89f8-dcf1fc277fac",
+        "breed": "Bambino",
+        "origin": "United States",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Munchkin and Sphynx",
+        "body_types": ["dwarf"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Black + white hairless"
+    },
+    {
+        "id": "d21c31f8-9cc4-442b-b54e-bd12a6663461",
+        "breed": "Bengal",
+        "origin": "Developed in United States, but created in Asia",
+        "type": "hybrid",
+        "type_info": "Hybrid of the Abyssinian and Egyptian Mau x leopard cat Prionailurus bengalensis",
+        "body_types": ["large"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Spotted, marbled, or rosetted"
+    },
+    {
+        "id": "1f31d6e9-aa62-42ff-a5ab-6e5388bb2b30",
+        "breed": "Birman",
+        "origin": "Developed in France, foundation stock from Burma (Myanmar)",
+        "type": "crossbreed",
+        "type_info": "The original Birman was crossed with the Siamese and the Persian to create the Birman of today",
+        "body_types": ["cobby"],
+        "coat_type_and_length": "semi-long",
+        "coat_pattern": "Mitted colorpoint"
+    },
+    {
+        "id": "8334b766-6322-4271-8ee5-6c0909be5bea",
+        "breed": "Bombay",
+        "origin": "United States and Burma (Myanmar)",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Black American Shorthair and Sable Burmese",
+        "body_types": ["cobby"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Solid black"
+    },
+    {
+        "id": "e9807314-548f-4e57-98d1-f23d9687d76e",
+        "breed": "Brazilian Shorthair",
+        "origin": "Brazil",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["normal"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "198243a9-bb2a-46b3-8150-31de1b0956d4",
+        "breed": "British Longhair",
+        "origin": "United Kingdom (England)",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["cobby"],
+        "coat_type_and_length": "semi-long",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "0abff5fa-0c60-4bf3-8057-009568f653be",
+        "breed": "British Shorthair",
+        "origin": "United Kingdom (England)",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["cobby"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "54d313fc-9b4e-430a-bd34-5b81dd27a19e",
+        "breed": "Burmese",
+        "origin": "Burma (Myanmar)",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["semi-foreign", "semi-cobby"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Solid and Tortoiseshell"
+    },
+    {
+        "id": "4557a1e1-1ae9-4ce2-a14f-9131a12d4ac1",
+        "breed": "Burmilla",
+        "origin": "United Kingdom (England)",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Burmese and the Chinchilla Persian",
+        "body_types": ["semi-cobby"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Solid with Shaded Silver and Silver Tipped patterns"
+    },
+    {
+        "id": "f7224a39-80f6-47b7-83c0-32d85b07cc41",
+        "breed": "California Spangled",
+        "origin": "United States",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Abyssinian, American Shorthair and British Shorthair",
+        "body_types": ["moderate"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Spotted tabby"
+    },
+    {
+        "id": "eb13e694-0daf-40b5-bb62-982fc08f4548",
+        "breed": "Chantilly-Tiffany",
+        "origin": "United States",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["cobby"],
+        "coat_type_and_length": "long",
+        "coat_pattern": "Solid, classic tabby, spotted tabby and ticked tabby"
+    },
+    {
+        "id": "a8b1290f-8518-4c59-bde6-edc20f84d93c",
+        "breed": "Chartreux",
+        "origin": "France",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["muscular", "cobby"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Varying shades of blue"
+    },
+    {
+        "id": "e919c7cc-9b15-4cb7-85e8-12c329d5a598",
+        "breed": "Chausie",
+        "origin": "United States",
+        "type": "hybrid",
+        "type_info": "Hybrid of the Abyssinian x jungle cat Felis chaus",
+        "body_types": ["normal"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Solid black, black grizzled tabby and black ticked tabby"
+    },
+    {
+        "id": "cc24f1ec-27fb-4efd-b43c-b652a933f900",
+        "breed": "Colorpoint Shorthair",
+        "origin": "United Kingdom (England)",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Abyssinian, Siamese and short-haired cats",
+        "body_types": ["foreign"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Colorpoint"
+    },
+    {
+        "id": "7984ce81-875d-4f84-b039-6bc56eab95f3",
+        "breed": "Cornish Rex",
+        "origin": "Cornwall, England, United Kingdom",
+        "type": "mutation",
+        "type_info": null,
+        "body_types": ["foreign"],
+        "coat_type_and_length": "rex",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "1903db5f-99b7-4394-b232-854577b8e0e4",
+        "breed": "Cymric, Manx Longhair or Long-haired Manx",
+        "origin": "Isle of Man, United States, and Canada",
+        "type": "mutation",
+        "type_info": "Mutation of the Manx (shortened tail)",
+        "body_types": ["semi-cobby"],
+        "coat_type_and_length": "long",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "d8f50425-bc5a-4d33-a531-c66d50eeebf4",
+        "breed": "Cyprus",
+        "origin": "Cyprus",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["lean", "muscular"],
+        "coat_type_and_length": "all",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "ee5123c8-edfb-4b85-9de7-956412bc09c9",
+        "breed": "Devon Rex",
+        "origin": "Buckfastleigh, Devon, England, United Kingdom",
+        "type": "mutation",
+        "type_info": null,
+        "body_types": ["semi-foreign"],
+        "coat_type_and_length": "rex",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "3302b417-2a37-48fb-9b1f-d0b53a718175",
+        "breed": "Donskoy or Don Sphynx",
+        "origin": "Russia",
+        "type": "mutation",
+        "type_info": null,
+        "body_types": ["semi-foreign"],
+        "coat_type_and_length": "hairless",
+        "coat_pattern": "Solid"
+    },
+    {
+        "id": "bec869f2-89df-4a48-8508-ee6cf8ebf462",
+        "breed": "Dragon Li or Chinese Li Hua",
+        "origin": "China",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["normal"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Ticked tabby"
+    },
+    {
+        "id": "a8a3358e-11ba-4ee8-b89c-51f320b1d433",
+        "breed": "Dwelf",
+        "origin": "United States",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the American Curl, Munchkin and Sphynx",
+        "body_types": ["dwarf"],
+        "coat_type_and_length": "hairless",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "ec89c6d0-0044-443c-a4cd-ab232bd56f0a",
+        "breed": "Egyptian Mau",
+        "origin": "Egypt",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["moderate", "muscular"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Spotted tabby"
+    },
+    {
+        "id": "0057cf5f-ba72-4b78-8324-c9db0cd21f73",
+        "breed": "European Shorthair",
+        "origin": "Continental Europe",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["moderate"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "51860a51-0176-4677-9103-04b131856e36",
+        "breed": "Exotic Shorthair",
+        "origin": "United States",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the American Shorthair and Persian",
+        "body_types": ["cobby"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "870d2b1a-f8b4-4aed-ac10-82fa0d73cbbc",
+        "breed": "Foldex",
+        "origin": "Canada",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Exotic Shorthair and Scottish Fold",
+        "body_types": ["cobby"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "71a1e231-b611-48be-bdab-0c8c2f496e9a",
+        "breed": "German Rex",
+        "origin": "Germany",
+        "type": "mutation",
+        "type_info": null,
+        "body_types": ["semi-foreign"],
+        "coat_type_and_length": "rex",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "9e0dbaa5-bbb0-4386-9bfe-f32843da9bc3",
+        "breed": "Havana Brown",
+        "origin": "United Kingdom (England), foundation stock from Thailand",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Siamese and black short-haired cats",
+        "body_types": ["semi-foreign"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Solid brown"
+    },
+    {
+        "id": "8ed761ba-8bea-48c1-88f7-c0de4257fd4d",
+        "breed": "Highlander",
+        "origin": "United States",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Desert Lynx and Jungle Curl",
+        "body_types": ["moderate"],
+        "coat_type_and_length": "short/long",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "bf22dd87-30e1-41ef-8ebb-5f9968d7eaf6",
+        "breed": "Himalayan or Colorpoint Persian",
+        "origin": "United States and United Kingdom",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Persian and Siamese",
+        "body_types": ["cobby"],
+        "coat_type_and_length": "long",
+        "coat_pattern": "Colorpoint"
+    },
+    {
+        "id": "cf375e74-4d09-411f-b8fb-dd136add0869",
+        "breed": "Japanese Bobtail",
+        "origin": "Japan",
+        "type": "mutation",
+        "type_info": "Mutation of shortened tail",
+        "body_types": ["moderate"],
+        "coat_type_and_length": "short/long",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "d7710939-6834-4a80-bc8c-be69d1da9e90",
+        "breed": "Javanese or Colorpoint Longhair",
+        "origin": "Developed in United States and Canada, foundation stock from Southeast Asia",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Balinese (with some Colorpoint Shorthair), Oriental Longhair and Siamese",
+        "body_types": ["oriental"],
+        "coat_type_and_length": "long",
+        "coat_pattern": "Colorpoint"
+    },
+    {
+        "id": "76841136-1151-4fa7-aa16-ada22898e3cd",
+        "breed": "Kanaani",
+        "origin": "Israel",
+        "type": "hybrid",
+        "type_info": "Hybrid of short-haired cats × African wildcat Felis lybica",
+        "body_types": ["semi-foreign"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Solid black, chocolate spotted tabby or cinnamon spotted tabby"
+    },
+    {
+        "id": "08b2bb0d-e7cb-48ff-88f7-d4add5df5e76",
+        "breed": "Khao Manee",
+        "origin": "Thailand",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["moderate"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Solid white"
+    },
+    {
+        "id": "646814ed-9193-4b80-bf94-730c9e1511c5",
+        "breed": "Kinkalow",
+        "origin": "United States",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Munchkin and American Curl",
+        "body_types": ["dwarf"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "54156916-14f0-4dbf-a1e4-ada6972c5730",
+        "breed": "Korat",
+        "origin": "Thailand",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["semi-foreign", "semi-cobby", "muscular"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Solid blue"
+    },
+    {
+        "id": "3b452f46-e847-4967-818a-409706a66a9f",
+        "breed": "Korean Bobtail",
+        "origin": "Korea",
+        "type": "mutation",
+        "type_info": "Natural, mutation of shortened tail",
+        "body_types": ["moderate"],
+        "coat_type_and_length": "short/long",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "4186786b-b3fc-4687-bce6-1382396ed5eb",
+        "breed": "Korn Ja or Konja",
+        "origin": "Thailand",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["small"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Solid black"
+    },
+    {
+        "id": "f438ac4e-a084-4dc2-96dc-6a9dd49c10f0",
+        "breed": "Kurilian Bobtail or Kuril Islands Bobtail",
+        "origin": "Kuril Islands, North Pacific",
+        "type": "mutation",
+        "type_info": "Natural, mutation of shortened tail",
+        "body_types": ["semi-cobby"],
+        "coat_type_and_length": "short/long",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "7e081e2e-dc7a-4a01-99e3-d4df1c7d7b51",
+        "breed": "Lambkin",
+        "origin": "United States",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Munchkin and Selkirk Rex",
+        "body_types": ["dwarf"],
+        "coat_type_and_length": "rex",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "cb67bfff-9a4e-47b6-a844-0f9b0ec11fa1",
+        "breed": "LaPerm",
+        "origin": "United States",
+        "type": "mutation",
+        "type_info": null,
+        "body_types": ["moderate"],
+        "coat_type_and_length": "rex",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "48546d7c-c467-44db-8055-3818843b9754",
+        "breed": "Lykoi",
+        "origin": "United States",
+        "type": "mutation",
+        "type_info": null,
+        "body_types": ["moderate"],
+        "coat_type_and_length": "sparse haired",
+        "coat_pattern": "Black roan"
+    },
+    {
+        "id": "d7e8489f-1296-4ea7-b091-268d19c2ee5b",
+        "breed": "Maine Coon",
+        "origin": "United States",
+        "type": "natural",
+        "type_info": "Natural, crossbreed",
+        "body_types": ["large"],
+        "coat_type_and_length": "semi-long/long",
+        "coat_pattern": "All excluding chocolate and colourpoint"
+    },
+    {
+        "id": "97ec3583-f1f0-4cb6-ae05-77cf01fd95c7",
+        "breed": "Manx",
+        "origin": "Isle of Man",
+        "type": "mutation",
+        "type_info": "Mutation of shortened tail",
+        "body_types": ["moderate"],
+        "coat_type_and_length": "short/long",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "99e42a54-4721-464d-82f9-315595fb0184",
+        "breed": "Mekong Bobtail",
+        "origin": "Developed in Russia, foundation stock ultimately from Southeast Asia",
+        "type": "mutation",
+        "type_info": "Mutation of shortened tail",
+        "body_types": ["moderate"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Colorpoint"
+    },
+    {
+        "id": "1a8eae1a-8eb1-4649-a987-432300106e49",
+        "breed": "Minskin",
+        "origin": "United States",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Munchkin, Burmese, Devon Rex, and Sphynx",
+        "body_types": ["dwarf"],
+        "coat_type_and_length": "hairless",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "98935b87-de2f-41dc-ac41-47276ba79984",
+        "breed": "Minuet",
+        "origin": "United States",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Persian and Munchkin",
+        "body_types": ["dwarf"],
+        "coat_type_and_length": "short/long",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "c45eeb2f-e9ef-47d0-9c85-1517e3a72066",
+        "breed": "Munchkin",
+        "origin": "United States",
+        "type": "mutation",
+        "type_info": "Mutation of dwarf cat",
+        "body_types": ["dwarf"],
+        "coat_type_and_length": "short/long",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "11ba2846-bfd2-49b3-a669-c0dad0ced70d",
+        "breed": "Nebelung",
+        "origin": "United States",
+        "type": "mutation",
+        "type_info": "Natural, mutation",
+        "body_types": ["foreign"],
+        "coat_type_and_length": "semi-long",
+        "coat_pattern": "Solid blue"
+    },
+    {
+        "id": "a95236f5-55a5-46c0-8b91-dbf0b0c092d7",
+        "breed": "Neva Masquerade",
+        "origin": "Russia",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Siberian and a colorpoint cat",
+        "body_types": ["cobby"],
+        "coat_type_and_length": "long",
+        "coat_pattern": "Colorpoint"
+    },
+    {
+        "id": "88dca02d-e392-488e-99e8-b0b14447d22b",
+        "breed": "Norwegian Forest Cat",
+        "origin": "Norway",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["cobby"],
+        "coat_type_and_length": "long",
+        "coat_pattern": "Chocolate or orange and white bicolor"
+    },
+    {
+        "id": "d32dbad4-b581-4238-9498-7cf1d4e27c26",
+        "breed": "Ocicat",
+        "origin": "United States",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Abyssinian, American Shorthair and Siamese",
+        "body_types": ["large"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Spotted tabby"
+    },
+    {
+        "id": "4b0f0eba-fa9a-44b0-b465-16be6a604ebb",
+        "breed": "Ojos Azules",
+        "origin": "United States",
+        "type": "crossbreed",
+        "type_info": "Crossbreed",
+        "body_types": ["moderate"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "f689cd5c-fddd-4a35-b92a-2ad6be07d176",
+        "breed": "Oregon Rex",
+        "origin": "United States",
+        "type": "mutation",
+        "type_info": null,
+        "body_types": [],
+        "coat_type_and_length": "rex",
+        "coat_pattern": ""
+    },
+    {
+        "id": "520d26a3-6750-44af-9b09-535895b14f26",
+        "breed": "Oriental Bicolor",
+        "origin": "Developed in United States and United Kingdom, later in Continental Europe, foundation stock ultimately from Thailand",
+        "type": "color_variety",
+        "type_info": "Color variety of the Oriental Shorthair",
+        "body_types": ["oriental"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Bicolor"
+    },
+    {
+        "id": "7fb02da5-6a31-491a-95e6-355b956912b6",
+        "breed": "Oriental Longhair",
+        "origin": "Developed in United States and United Kingdom, foundation stock ultimately from Thailand",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Oriental Shorthair and long-haired cats",
+        "body_types": ["oriental"],
+        "coat_type_and_length": "semi-long",
+        "coat_pattern": "All; if colorpoint is considered to be a separate breed, it is called the Javanese"
+    },
+    {
+        "id": "eabf0b5c-a3e1-4945-9672-dafec6138f07",
+        "breed": "Oriental Shorthair",
+        "origin": "Developed in United States and United Kingdom, foundation stock ultimately from Thailand",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the European Shorthair and Siamese",
+        "body_types": ["oriental"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "d40a8428-efeb-4fdf-9f20-24d65a42164e",
+        "breed": "Persian (modern)",
+        "origin": "Developed in United States and Europe, foundation stock from Greater Iran",
+        "type": "mutation",
+        "type_info": "Mutation of the Traditional Persian",
+        "body_types": ["cobby"],
+        "coat_type_and_length": "long",
+        "coat_pattern": "All but colorpoint"
+    },
+    {
+        "id": "5216bd9f-08aa-4d2c-a7bb-c26884f043b0",
+        "breed": "Persian (traditional)",
+        "origin": "Greater Iran",
+        "type": "natural",
+        "type_info": "Natural, but some crossbreeding with the Turkish Angora",
+        "body_types": ["cobby"],
+        "coat_type_and_length": "long",
+        "coat_pattern": "All but colorpoint"
+    },
+    {
+        "id": "82632f5e-e005-44c9-9d81-80cb41201495",
+        "breed": "Peterbald",
+        "origin": "Russia",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Donskoy, Oriental Shorthair and Siamese, before this, it was between the Balinese and Javanese",
+        "body_types": ["oriental"],
+        "coat_type_and_length": "hairless, velour, brush, or straight coat",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "7ef5d2e5-8f9e-4b94-85c9-e347568e41fd",
+        "breed": "Pixie-bob",
+        "origin": "United States",
+        "type": "mutation",
+        "type_info": null,
+        "body_types": ["medium"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Spotted tabby"
+    },
+    {
+        "id": "07562eb8-6177-45ce-bc8f-a17f284522b0",
+        "breed": "Ragamuffin or Liebling",
+        "origin": "United States",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Ragdoll with limited out-crossing to the Himalayan, the Persian, and other long-haired cats",
+        "body_types": ["cobby"],
+        "coat_type_and_length": "long",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "f9c2b46d-02a9-48dc-a1c8-14f0ecfde254",
+        "breed": "Ragdoll",
+        "origin": "United States",
+        "type": "mutation",
+        "type_info": "Behavioral mutation in a crossbreed, presumed to be between the Persian or Turkish Angora and the Birman or Burmese",
+        "body_types": ["cobby"],
+        "coat_type_and_length": "long",
+        "coat_pattern": "Colorpoint, mitted, or bicolor"
+    },
+    {
+        "id": "2052bd4e-f4c2-497f-be4e-b21339d8bc3b",
+        "breed": "Raas",
+        "origin": "Raas Island, Indonesia",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["moderate"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Solid blue, solid cinnamon, or cinnamon colorpoint"
+    },
+    {
+        "id": "8c0086f6-4739-41d8-be94-abd6928ddcac",
+        "breed": "Russian Blue",
+        "origin": "Russia",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["moderate", "oriental"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Solid blue"
+    },
+    {
+        "id": "575753f4-f3b9-4fb8-aecf-4897b750d192",
+        "breed": "Russian White, Russian Black and Russian Tabby",
+        "origin": "Developed in Australia, foundation stock from Russia",
+        "type": "crossbreed",
+        "type_info": "Crossbreeds between the Russian Blue and short-haired cats from Siberia, Russia",
+        "body_types": ["moderate"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Solid white, solid black and tabby"
+    },
+    {
+        "id": "646143e2-dcbe-4b5e-b7cc-c29436858e70",
+        "breed": "Sam Sawet",
+        "origin": "Thailand",
+        "type": "color_variety",
+        "type_info": "Color variety of the Thai",
+        "body_types": ["moderate"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Solid"
+    },
+    {
+        "id": "d9ddcc4d-c0cc-42ad-a7dc-591dac8dc27b",
+        "breed": "Savannah",
+        "origin": "United States",
+        "type": "hybrid",
+        "type_info": "Hybrid of the domestic cat x serval Leptailurus serval",
+        "body_types": ["large"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Spotted"
+    },
+    {
+        "id": "e8919510-0ede-4a01-8d71-f62cacaab523",
+        "breed": "Scottish Fold",
+        "origin": "United Kingdom (Scotland)",
+        "type": "mutation",
+        "type_info": "Mutation of the bones and cartilage of the ears",
+        "body_types": ["cobby"],
+        "coat_type_and_length": "short/long",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "b9c72ed0-8d69-4c6c-bab1-f478ad01db65",
+        "breed": "Selkirk Rex",
+        "origin": "United States in 1988",
+        "type": "mutation",
+        "type_info": "Mutation/crossbreed between the American Shorthair, Persian, Himalayan, Exotic Shorthair and British Shorthair",
+        "body_types": ["large", "cobby"],
+        "coat_type_and_length": "short/long",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "2c3d191b-a0e4-4bf1-96d0-5b884f5ca829",
+        "breed": "Serengeti",
+        "origin": "United States",
+        "type": "crossbreed",
+        "type_info": "Crossbreed/hybrid between the Bengal and Oriental Shorthair",
+        "body_types": ["oriental"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Spotted"
+    },
+    {
+        "id": "7782024d-d823-4c9b-b4af-51b1e0f04b23",
+        "breed": "Serrade Petit",
+        "origin": "France",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["semi-cobby"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Solid tan, solid orange and solid white"
+    },
+    {
+        "id": "e1b15a50-a3f1-44ea-9e31-62fee208168a",
+        "breed": "Siamese (modern)",
+        "origin": "Developed in United States and Europe, foundation stock from Thailand",
+        "type": "mutation",
+        "type_info": "Mutation of the Thai",
+        "body_types": ["oriental"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Colorpoint"
+    },
+    {
+        "id": "06ee843a-24e7-4ccd-8eaa-5b6aef662517",
+        "breed": "Siberian or Siberian Forest Cat",
+        "origin": "Russia, Ukraine",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["cobby"],
+        "coat_type_and_length": "long",
+        "coat_pattern": "All; except chocolate, lilac, cinnamon, and fawn"
+    },
+    {
+        "id": "b6a01260-6a4d-4821-a4f4-4682e7c85295",
+        "breed": "Singapura",
+        "origin": "Developed in United States, foundation stock from Singapore",
+        "type": "mutation",
+        "type_info": "Possibly a mutation of a crossbreed (excluding the Munchkin), solving why they are so small",
+        "body_types": ["small"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Ticked tabby"
+    },
+    {
+        "id": "3a04bcd9-9fda-4734-a7a0-ef297406a425",
+        "breed": "Snowshoe",
+        "origin": "United States",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the American Shorthair and Siamese",
+        "body_types": ["moderate"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Mitted colorpoint"
+    },
+    {
+        "id": "20501f72-6da7-4935-be83-90545186fbaf",
+        "breed": "Sokoke",
+        "origin": "Kenya",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["moderate"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Ticked tabby"
+    },
+    {
+        "id": "667c844f-a560-4e9d-af51-e79342ebf7f4",
+        "breed": "Somali",
+        "origin": "United States, Canada",
+        "type": "mutation",
+        "type_info": null,
+        "body_types": ["cobby"],
+        "coat_type_and_length": "long",
+        "coat_pattern": "Ticked tabby"
+    },
+    {
+        "id": "1c65f501-38f5-4af6-bd3f-d4092cc14436",
+        "breed": "Sphynx",
+        "origin": "Canada, Europe",
+        "type": "mutation",
+        "type_info": null,
+        "body_types": ["oriental"],
+        "coat_type_and_length": "hairless",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "599ce450-b1b7-497c-9484-a025f31ecdd2",
+        "breed": "Suphalak",
+        "origin": "Thailand",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["moderate"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Solid reddish-brown"
+    },
+    {
+        "id": "fb546292-9d46-4975-9287-fd1dabbb1e9b",
+        "breed": "Thai Traditional, Classic, or Old-style Siamese; Wichien Maat",
+        "origin": "Developed in Europe, foundation stock from Thailand",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["moderate"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Colorpoint"
+    },
+    {
+        "id": "1d1ae5ae-bd6a-4dbc-a095-db1c64686950",
+        "breed": "Thai Lilac, Thai Blue Point and Thai Lilac Point",
+        "origin": "Thailand",
+        "type": "color_variety",
+        "type_info": "Color varieties of the Korat",
+        "body_types": ["moderate"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Solid lilac and colorpoint (blue point and lilac point only)"
+    },
+    {
+        "id": "2018e04c-a5f4-4b50-a87e-65275be6d6c6",
+        "breed": "Tonkinese",
+        "origin": "Canada, United States",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Burmese and Siamese",
+        "body_types": ["oriental"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Colorpoint, mink, or solid"
+    },
+    {
+        "id": "88fc527b-84d3-4eac-820d-b06749a238e9",
+        "breed": "Toybob",
+        "origin": "Russia",
+        "type": "mutation",
+        "type_info": null,
+        "body_types": ["dwarf"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "06dda8c2-5241-466b-bfd5-f536c56ee8b3",
+        "breed": "Toyger",
+        "origin": "United States",
+        "type": "crossbreed",
+        "type_info": "Crossbreed/hybrid between the Bengal and short-haired cats",
+        "body_types": ["moderate"],
+        "coat_type_and_length": "short",
+        "coat_pattern": "Mackerel tabby"
+    },
+    {
+        "id": "78ee551c-3db2-4558-aaba-7a8874062a08",
+        "breed": "Turkish Angora",
+        "origin": "Turkey",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["semi-cobby"],
+        "coat_type_and_length": "semi-long",
+        "coat_pattern": "All"
+    },
+    {
+        "id": "7243120e-40f8-441e-bce0-4e727b0d268d",
+        "breed": "Turkish Van",
+        "origin": "Developed in United Kingdom, foundation stock from Lake Van, Turkey",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["semi-cobby"],
+        "coat_type_and_length": "semi-long",
+        "coat_pattern": "Van pattern"
+    },
+    {
+        "id": "6bb927e1-7639-4bda-96e5-c5403a70961b",
+        "breed": "Turkish Vankedisi",
+        "origin": "Lake Van, Turkey",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["svelte"],
+        "coat_type_and_length": "long",
+        "coat_pattern": "Solid white"
+    },
+    {
+        "id": "52c62e72-44cc-43a6-887c-bc81e70b3b54",
+        "breed": "Ukrainian Levkoy",
+        "origin": "Ukraine",
+        "type": "crossbreed",
+        "type_info": "Crossbreed between the Donskoy and Scottish Fold",
+        "body_types": ["moderate"],
+        "coat_type_and_length": "hairless",
+        "coat_pattern": "Solid gray"
+    },
+    {
+        "id": "41a000e4-5733-4fef-8b00-d944e3ae47d3",
+        "breed": "York Chocolate",
+        "origin": "New York, United States",
+        "type": "natural",
+        "type_info": null,
+        "body_types": ["moderate"],
+        "coat_type_and_length": "long",
+        "coat_pattern": "Solid chocolate, solid lilac and solid taupe or any of these colors with white"
+    }
+]
