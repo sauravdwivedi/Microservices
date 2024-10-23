@@ -2,8 +2,10 @@ package com.dwivedi.transaction.management.controllers;
 
 import java.util.UUID;
 import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -25,8 +27,8 @@ public class AccountsOperations {
         return accountRepository.findAll();
     }
 
-    @GetMapping("/accounts")
-    public @ResponseBody Optional<Account> getAccountById(@RequestParam UUID accountId) {
+    @GetMapping("/accounts/{id}")
+    public @ResponseBody Optional<Account> getAccountById(@PathVariable UUID accountId) {
 
         return accountRepository.findById(accountId);
     }
