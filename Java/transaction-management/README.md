@@ -61,7 +61,8 @@ docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysq
 ### Run spring boot application
 
 ```bash 
-cd Java/transaction-management
+gh repo clone sauravdwivedi/Microservices
+cd Microservices && cd Java && cd transaction-management
 ./gradlew bootRun
 ```
 
