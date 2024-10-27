@@ -72,5 +72,6 @@ cd Microservices && cd Kotlin && cd transaction-management-api
 
 ### Tutorials
 
+- https://spring.io/guides/tutorials/spring-boot-kotlin
 - https://kotlinlang.org/docs/jvm-get-started-spring-boot.html
 - https://kotlinlang.org/docs/jvm-spring-boot-using-crudrepository.html
