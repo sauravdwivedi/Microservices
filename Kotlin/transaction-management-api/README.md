@@ -22,7 +22,7 @@ sequenceDiagram
 ## Usage
 
 ### Create account
-
+Backend creates random uuid for each new account.
 #### Payload
 ```json
 {
