@@ -62,7 +62,7 @@ docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysq
 
 ```bash 
 gh repo clone sauravdwivedi/Microservices
-cd Microservices && cd Java && cd transaction-management
+cd Microservices && cd Kotlin && cd transaction-management-api
 ./gradlew --debug bootRun
 ```
 
