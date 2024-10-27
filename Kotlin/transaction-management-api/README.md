@@ -1,4 +1,4 @@
-# Kotlin Spring Boot application Transaction Management API
+# Kotlin Spring Boot application "Transaction Management API"
 
 ## Project description
 Web service provides endpoints to execute CRUD operations.
