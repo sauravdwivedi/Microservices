@@ -27,9 +27,14 @@ class Transactions(
 
     @GetMapping("{id}")
     fun getTransactionById(@PathVariable id: Int): ResponseEntity<Transaction> {
-        val transactionFound = service.findTransactionById(id)
+        val transaction = service.findTransactionById(id)
 
-        return ResponseEntity.created(URI("/${transactionFound?.id}")).body(transactionFound)
+        if (transaction != null) {
+
+            return ResponseEntity.created(URI("/${transaction.id}")).body(transaction)
+        } else {
+            throw ResponseStatusException(HttpStatus.NOT_FOUND, "Transaction not found")
+        }
     }
 
     @PostMapping
@@ -37,13 +42,13 @@ class Transactions(
         var account = accountService.findAccountById(payload.account)
 
         if (account != null) {
-            account.balance += payload.ammount
-            var transaction = Transaction(null, payload.ammount, LocalDateTime.now(), account)
+            account.balance += payload.amount
+            var transaction = Transaction(null, payload.amount, LocalDateTime.now(), account)
             val savedTransaction = service.save(transaction)
 
             return ResponseEntity.created(URI("/${savedTransaction.id}")).body(savedTransaction)
         } else {
-            throw ResponseStatusException(HttpStatus.BAD_REQUEST, "Account was not found")
+            throw ResponseStatusException(HttpStatus.BAD_REQUEST, "Account not found")
         }
     }
 }

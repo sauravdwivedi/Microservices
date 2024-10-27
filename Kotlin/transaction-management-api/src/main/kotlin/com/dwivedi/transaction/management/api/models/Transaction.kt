@@ -10,7 +10,7 @@ import java.time.LocalDateTime
 @Entity
 data class Transaction(
         @Id @GeneratedValue(strategy = GenerationType.IDENTITY) val id: Int?,
-        val ammount: Double,
+        val amount: Double,
         val createdAt: LocalDateTime,
         @ManyToOne val account: Account,
 )

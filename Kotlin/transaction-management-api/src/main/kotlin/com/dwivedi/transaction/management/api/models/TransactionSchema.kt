@@ -4,5 +4,5 @@ import java.util.UUID
 
 data class TransactionSchema(
         val account: UUID,
-        val ammount: Double,
+        val amount: Double,
 )

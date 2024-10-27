@@ -8,6 +8,6 @@ import java.util.UUID
 
 @Entity
 data class Account(
-        @Id @GeneratedValue(strategy = GenerationType.AUTO) val id: UUID,
+        @Id @GeneratedValue(strategy = GenerationType.AUTO) val id: UUID?,
         var balance: Double,
 )
