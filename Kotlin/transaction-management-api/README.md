@@ -22,6 +22,7 @@ sequenceDiagram
 ## Usage
 
 ### Create account
+
 #### Payload
 ```json
 {
@@ -32,7 +33,8 @@ sequenceDiagram
 #### Response
 ```json
 {
-    "status": 201
+    "id": "36d28dba-df34-47da-8d32-ede47edac57e",
+    "balance": 500000.0
 }
 ```
 
@@ -44,7 +46,7 @@ curl -X 'POST' \
   -H 'accept: text/plain' \
   -H 'Content-Type: application/json' \
   -d '{
-  "balance": 0
+  "balance": 500000
 }'
 ```
 
