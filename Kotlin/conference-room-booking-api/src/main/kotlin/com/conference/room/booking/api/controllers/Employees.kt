@@ -45,9 +45,11 @@ class Employees(private val service: EmployeeService) {
         val result = ex.bindingResult
         val errors = result.fieldErrors
         var message = ""
+
         for (error in errors) {
             message += "${error.defaultMessage}\n"
         }
+
         return ResponseEntity.badRequest().body(message)
     }
 }
