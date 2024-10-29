@@ -58,15 +58,6 @@ curl -X 'POST' \
 docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql
 ```
 
-### Create database
-
-```bash
-docker exec -it mysql bash
-mysql -u root -p
-# Use password 'my-secret-pw'
-create database transaction_management;
-```
-
 ### Run spring boot application
 
 ```bash 
