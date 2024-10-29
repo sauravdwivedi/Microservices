@@ -6,6 +6,8 @@ import jakarta.validation.Valid
 import java.net.URI
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
+import org.springframework.web.bind.MethodArgumentNotValidException
+import org.springframework.web.bind.annotation.ExceptionHandler
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.PostMapping
@@ -36,5 +38,16 @@ class Employees(private val service: EmployeeService) {
         val savedEmployee = service.save(payload)
 
         return ResponseEntity.created(URI("/${savedEmployee.id}")).body(savedEmployee)
+    }
+
+    @ExceptionHandler(MethodArgumentNotValidException::class)
+    fun handleValidationException(ex: MethodArgumentNotValidException): ResponseEntity<String> {
+        val result = ex.bindingResult
+        val errors = result.fieldErrors
+        var message = ""
+        for (error in errors) {
+            message += "${error.defaultMessage}\n"
+        }
+        return ResponseEntity.badRequest().body(message)
     }
 }
