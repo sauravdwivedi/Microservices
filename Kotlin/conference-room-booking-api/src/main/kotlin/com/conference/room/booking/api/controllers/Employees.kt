@@ -1,6 +1,7 @@
 package com.conference.room.booking.api.controllers
 
 import com.conference.room.booking.api.models.Employee
+import com.conference.room.booking.api.models.EmployeeSchema
 import com.conference.room.booking.api.services.EmployeeService
 import jakarta.validation.Valid
 import java.net.URI
@@ -34,8 +35,9 @@ class Employees(private val service: EmployeeService) {
     }
 
     @PostMapping
-    fun postEmployee(@Valid @RequestBody payload: Employee): ResponseEntity<Employee> {
-        val savedEmployee = service.save(payload)
+    fun postEmployee(@Valid @RequestBody payload: EmployeeSchema): ResponseEntity<Employee> {
+        val employee = Employee(null, payload.name, payload.email, payload.employer)
+        val savedEmployee = service.save(employee)
 
         return ResponseEntity.created(URI("/${savedEmployee.id}")).body(savedEmployee)
     }

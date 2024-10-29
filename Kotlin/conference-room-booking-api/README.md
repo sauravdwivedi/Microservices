@@ -92,15 +92,6 @@ curl -X 'PATCH' \
 ```bash
 docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql
 ```
-
-### Create database
-
-```bash
-docker exec -it mysql bash
-mysql -u root -p
-# Use password 'my-secret-pw'
-create database conference_room_booking;
-```
  
 ### Run spring boot application
 
